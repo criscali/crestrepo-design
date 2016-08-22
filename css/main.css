@@ -1,0 +1,70 @@
+.principal{
+	background: #2EF5C9;
+	margin-top: 50px;
+}
+
+.principal img{
+	width: 100%;
+	
+
+}
+
+.principal h2{
+	color: white;
+	font-size: 28px;
+	text-align: center;
+
+}
+
+.principal p{
+	color: white;
+	text-align: center;
+	margin-top: 10px;
+}
+
+@media(min-width: 768px){
+	
+	.principal{
+	height: 500px;
+	}
+
+	.principal img{
+		width: 312px;
+		height: 312px;
+		position: relative;
+		top:20px;
+		left: 30%;
+		
+	}
+
+	.principal h2{
+		margin-top: 10px;
+		font-size: 48px;
+		
+	}
+
+	.principal p{
+		font-size: 25px;
+		
+	}
+}
+
+
+@media(min-width: 810px) and ( max-width: 920px){
+	
+
+	.principal img{
+		position: relative;
+		top:20px;
+		left: 32%;
+	}
+}
+
+@media(min-width: 1024px){
+	.principal img{
+		position: relative;
+		top:20px;
+		left: 40%;
+		
+	}
+}

@@ -1,0 +1,42 @@
+.formulario h2{
+	text-align: center;
+	font-size: 28px;
+}
+
+input[type=text]{
+	width: 100%;
+	height: 30px;
+}
+textarea{
+	width: 100%;
+	resize: none;
+	height: 80px;
+}
+button{
+	width: 80px;
+	height: 40px;
+	background: #2EF5C9;
+	outline: none;
+}
+
+
+
+@media(min-width: 768px){
+	.formulario h2{
+		font-size: 48px;
+	}
+
+	input[type=text]{
+		width: 80%;
+		margin-left: 60px;
+	}
+
+	textarea{
+		margin-left: 60px;
+		width: 80%;
+	}
+
+	button{
+		margin-left: 60px;
+	}
+}
