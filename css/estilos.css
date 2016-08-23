@@ -82,6 +82,15 @@ footer .copy{
 	color: black;
 }
 
+.icon-whatsapp{
+	position: relative;
+	top: 20px;
+}
+
+.icon-whatsapp:hover{
+	color: black;
+}
+
 .pie2{
 	background: rgba(0,0,0,0.9);
 	height: 100%;
