@@ -10,7 +10,25 @@
 	max-width: 280px;
 }
 
-@media(min-width: 768px){
+
+
+
+@media(min-width: 560px) and (max-width: 565px){
+    .jobsimg {
+       width: 99%;
+    }
+}
+
+@media(min-width: 566px) and (max-width: 577px){
+    .jobsimg {
+       max-width: 97%;
+    }
+}
+
+
+
+
+@media(min-width: 764px){
 	.jobs h2{
 		font-size: 48px;
 	}
